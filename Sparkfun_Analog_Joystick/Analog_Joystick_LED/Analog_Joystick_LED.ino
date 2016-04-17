@@ -72,7 +72,7 @@ void setup() {
 }
 
 void loop() {
-  //Works only if Serial_Enable is set to 1
+  //Works only if Serial_Enable is set to 1. Used for reporting values over Serial.
   #if Serial_Enable
   //receives char from Serial port and assigns it to rchar
   char rchar;
