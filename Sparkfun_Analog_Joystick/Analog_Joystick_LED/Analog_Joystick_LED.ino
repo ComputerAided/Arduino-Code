@@ -48,8 +48,8 @@
 #define V_Max 1028
 //Threshold values for triggering
 #define threshold 256
-#define nthreshold -256
-//change to 1 to use serial port
+#define nthreshold -threshold
+//change to 1 to use serial port for output of values of joystick, eg for calibrationg of Joystick values.
 #define Serial_Enable 0
 #if Serial_Enable
 #define DebounceTime 50
